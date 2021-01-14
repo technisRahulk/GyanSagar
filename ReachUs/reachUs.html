@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale-1.0">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Reach Us</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<!-- CSS only -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/flexboxgrid.css">
+	<link rel="stylesheet" href="css/reach-us-style.css">
+
+	<style>
+		body {
+           overflow-x: hidden;
+		}
+        .navbar {
+            height: 75px;
+        }
+
+        .nav-item {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-left: 1.2rem;
+        }
+
+        .span-gyan {
+            color: #1ebba3;
+        }
+
+        .span-gyan,
+        .span-sagar {
+            font-size: 1.8rem;
+            font-weight: 600;
+        }
+
+        @media only screen and (max-width: 1000px) {
+
+            .nav-item {
+                background-color: rgb(41, 40, 40);
+                padding-left: 1rem;
+                border-radius: 4px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+	<!-- nav bar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-brand">
+                <img src="\images\logo.png" style="width:55px; height:55px;">
+            </div>
+            <a class="navbar-brand" href="/">
+                <span class="span-gyan">Gyan</span>
+                <span class="span-sagar">Sagar</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../Activity/activity.html">Activity</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../Gallery/gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="../ReachUs/reachUs.html">Reach Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- nav bar ends -->
+
+	<div class="main">
+		<div class="container2">
+			<h3 class="brand bg bg-dark text-white px-4 py-2">Have a query or an idea?
+				<span style="font-size:16px;" class="text-warning">We are just a message away !</span></h3>
+			<div class="wrapper2">
+				<div class="details">
+					<h3>Give us your Feedback</h3>
+					<p>We are excited to hear from you ! </p>
+				</div>
+				<div class="contacts">
+					<h1>Mail Us</h1>
+					<form name="feedback" id="contact-form" method="POST" action="send"  enctype="multipart/form-data">
+						<p>
+
+							<!--<label>Name</label>-->
+							<input type="text" placeholder="Name" name="name" id="name" required>
+						</p>
+						<p>
+							<!--<label>E-mail</label>-->
+							<input type="email" placeholder="Email" name="email" id="email" required>
+						</p>
+						<p>
+							<!--<label>Subject</label>-->
+							<input placeholder="Subject" id="subject" type="text" name="subject" autocomplete="off" required>
+						</p>
+						<p>
+							<label class="full"></label>
+							<textarea placeholder="Message" name="message" id="message" rows="5" required></textarea>
+						</p>
+						<p>
+							<button class="full" name="register" type="submit" value="submit">Submit</button>
+						</p>
+					</form>
+				</div>
+			</div>
+		</div>
+		<h3 class="brand bg bg-dark text-white px-4 py-2">Looking to meet in-person?
+			<span style="font-size:16px;" class="text-warning">Sure, Locate us on map !</span></h3>
+		<iframe
+			src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d14492.853566983262!2d92.78296069999999!3d24.75387165!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1548990504792"
+			width="1200" height="400" frameborder="0" style="border:0; margin:auto; width:100%;" allowfullscreen></iframe>
+	</div>
+
+
+	<!--STATRING PROF-->
+	<div class="demo">
+		<div class="text-sect">
+			<div class="heading2">
+				<h2><span>Love </span>Our Work</h2>
+			</div>
+		</div>
+		<div class="text-pera">
+			<h4>Contact Us</h4>
+		</div>
+		<div class="container10" >
+			<div class="row">
+				<div id="testimonial-slider" class="owl-carousel owl-theme owl-controls">
+
+					<div class="testimonial">
+						<p class="description">
+							<h3 class="title" style="padding-top: 5px; ">Sudhanshu Yaduvanshi</h3>
+							<span class="post" style="padding-top: 10px;">General Secretary</span>
+							<div class="middle">
+								<a href="https://www.facebook.com/sudhanshu.kishan" style="text-decoration:none"> 
+									<i class="btn fab fa-facebook-f"></i>
+								</a>
+								<a href="https://www.linkedin.com/in/sudhanshu-yaduvanshi-2340501bb" style="text-decoration:none">
+									<i class="btn fab fa-linkedin-in"></i>
+								</a>
+							</div>
+						</p>
+						<div class="testimonial-content">
+							<div class="pic">
+								<img src="/images/profiles/sudhanshu.jpeg" style="width: 130px; height: 130px;"  alt="">
+							</div>
+
+						</div>
+					</div>
+
+					<div class="testimonial">
+						<p class="description">
+							<h3 class="title" style="padding-top: 5px;">Vaibhav Pal</h3>
+							<span class="post" style="padding-top: 10px;">Treasurer</span>
+							<div class="middle">
+								<a href="https://www.facebook.com/profile.php?id=100008746201558" style="text-decoration:none">
+									<i class="btn fab fa-facebook-f"></i>
+								</a>
+								<a href="https://www.linkedin.com/in/vaibhav-pal-76994b177" style="text-decoration:none">
+									<i class="btn fab fa-linkedin-in "></i>
+								</a>								
+							</div>
+						</p>
+						<div class="testimonial-content">
+							<div class="pic">
+								<img src="/images/profiles/vaibhab.jpg" style="width: 130px; height: 130px;"  alt="">
+							</div>
+
+						</div>
+					</div>
+
+					<div class="testimonial">
+						<p class="description">
+							<h3 class="title" style="padding-top: 5px;">Abhishek Kumar Jha</h3>
+							<span class="post" style="padding-top: 10px;">NITS CIT Head</span>
+							<div class="middle">
+								<a href="https://www.facebook.com/kehsihba19" style="text-decoration:none">
+									<i class="btn fab fa-facebook-f"></i>
+								</a>
+								<a href="https://www.linkedin.com/in/kehsihba19/" style="text-decoration:none">
+									<i class="btn fab fa-linkedin-in"></i>
+								</a>
+							</div>
+						</p>
+						<div class="testimonial-content">
+							<div class="pic">
+								<img src="../images/profiles/abhishek_jha.jpg" style="width: 130px; height: 130px;"  alt="">
+							</div>
+
+						</div>
+					</div>
+					
+					<div class="testimonial">
+						<p class="description">
+							<h3 class="title" style="padding-top: 5px;">Rahul Kumar Gupta</h3>
+							<span class="post" style="padding-top: 10px;">NITS CIT Head</span>
+							<div class="middle">
+								<a href="https://www.facebook.com/profile.php?id=100008283554587" style="text-decoration:none">
+									<i class="btn fab fa-facebook-f"></i>
+								</a>
+								<a href="https://www.linkedin.com/in/rahul-kumar-gupta-092663176/" style="text-decoration:none">
+									<i class="btn fab fa-linkedin-in"></i>
+								</a>
+							</div>
+						</p>
+						<div class="testimonial-content">
+							<div class="pic">
+								<img src="/images/profiles/rahul_gupta.jpg" style="width: 130px; height: 130px;"  alt="">
+							</div>
+
+						</div>
+					</div>
+
+					<div class="testimonial">
+						<p class="description">
+							<h3 class="title" style="padding-top: 5px;"> Sanskriti Mishra</h3>
+							<span class="post" style="padding-top: 10px;">Event Head</span>
+							<div class="middle">
+								<a href="https://www.facebook.com/sanskriti.mishra.752" style="text-decoration:none">
+									<i class="btn fab fa-facebook-f"></i>
+								</a>
+								<a href="https://www.linkedin.com/in/sanskriti-mishra-44b81a177" style="text-decoration:none">
+									<i class="btn fab fa-linkedin-in"></i>
+								</a>
+							</div>
+						</p>
+						<div class="testimonial-content">
+							<div class="pic">
+								<img src="/images/profiles/sanskriti.jpg" style="width: 130px; height: 130px;" alt="">
+							</div>
+						</div>
+					</div>
+
+					<div class="testimonial">
+						<p class="description">
+							<h3 class="title" style="padding-top: 5px;">Sandeep Shah</h3>
+							<span class="post" style="padding-top: 10px;">Event Head</span>
+							<div class="middle">
+								<a href="https://www.facebook.com/sandeep.shah.5243" style="text-decoration:none">
+									<i class="btn fab fa-facebook-f"></i>
+								</a>
+								<a href="https://www.linkedin.com/in/sandeep-shah-b4b563a4" style="text-decoration:none">
+									<i class="btn fab fa-linkedin-in"></i>
+								</a>
+							</div>
+						</p>
+						<div class="testimonial-content">
+							<div class="pic">
+								<img src="/images/profiles/sandeep.jpeg" style="width: 130px; height: 130px;" alt="">
+							</div>
+
+						</div>
+					</div>
+
+					<div class="testimonial">
+						<p class="description">
+							<h3 class="title" style="padding-top: 5px;">Suryanshu Maheshwari</h3>
+							<span class="post" style="padding-top: 10px;">Event Head</span>
+							<div class="middle">
+								<a href="https://www.facebook.com/suryanshu.26/" style="text-decoration:none">
+									<i class="btn fab fa-facebook-f"></i>
+								</a>
+								<a href="https://www.linkedin.com/in/suryanshu-maheshwari-294651190/" style="text-decoration:none">
+									<i class="btn fab fa-linkedin-in"></i>
+								</a>
+							</div>
+						</p>
+						<div class="testimonial-content">
+							<div class="pic">
+								<img src="/images/profiles/suryanshu.jpeg" style="width: 130px; height: 130px;"  alt="">
+							</div>
+
+						</div>
+					</div>
+
+					<div class="testimonial">
+						<p class="description">
+							<h3 class="title" style="padding-top: 5px;">Siddharth Srivastav</h3>
+							<span class="post" style="padding-top: 10px;">Teaching Head</span>
+							<div class="middle">
+								<a href="https://m.facebook.com/siddharth.srivastav.503" style="text-decoration:none">
+									<i class="btn fab fa-facebook-f"></i>
+								</a>
+							</div>
+						</p>
+						<div class="testimonial-content">
+							<div class="pic">
+								<img src="/images/profiles/siddhart.jpg" style="width: 130px; height: 130px;"  alt="">
+							</div>
+
+						</div>
+					</div>
+
+					<div class="testimonial">
+						<p class="description">
+							<h3 class="title" style="padding-top: 5px;">Abhishek Kumar</h3>
+							<span class="post" style="padding-top: 10px;">Teaching Head</span>
+							<div class="middle">
+								<a href="https://www.facebook.com/profile.php?id=100045798584965" style="text-decoration:none">
+									<i class="btn fab fa-facebook-f"></i>
+								</a>
+								<a href="https://www.linkedin.com/in/abhishek-kumar-15b37a170" style="text-decoration:none">
+									<i class="btn fab fa-linkedin-in"></i>
+								</a>
+							</div>
+						</p>
+						<div class="testimonial-content">
+							<div class="pic">
+								<img src="/images/profiles/abhishek_kumar.jpg" style="width: 130px; height: 130px;"  alt="">
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--end  PROF-->
+		<section id="devloper">
+			<div class="contain">
+				<div class="heading2">
+					<h2><span>Found </span> a bug!</h2>
+				</div>
+				<div class="text-pera">
+					<h4>Report Us</h4>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 text-center">
+					<div class="profile">
+						<img src="\images\prakash.jpg" alt="" class="user">
+						<h3>Prakash Jha</h3>
+						<h6><span>Developer Head</span></h6>
+					</div>
+				</div>
+				<div class="col-md-4 text-center">
+					<div class="profile">
+						<img src="\images\rahul.jpeg" alt="" class="user">
+						<h3>Rahul Singh</h3>
+						<h6><span>Developer Head</span></h6>	
+					</div>
+				</div>
+				
+				<div class="col-md-4 text-center">
+					<div class="profile">
+						<img src="\images\Rahul_kr._Gupta.jpeg" alt="" class="user">
+						<h3>Rahul Kumar Gupta</h3>
+						<h6><span>Developer Head</span></h6>
+					</div>
+				</div>
+					<div class="col-md-4 text-center">
+						<div class="profile">
+							<img src="\images\Shivam_Kumar.jpeg" alt="" class="user">
+							<h3>Shivam Kumar</h3>
+							<h6><span>Developer</span></h6>
+						</div>
+					</div>
+						<div class="col-md-4 text-center">
+							<div class="profile">
+								<img src="\images\Tanupriya_Roy.jpg" alt="" class="user">
+								<h3>Tanupriya Roy</h3>
+								<h6><span>Developer</span></h6>
+							</div>
+						</div>
+				<div class="col-md-4 text-center">
+					<div class="profile">
+						<img src="\images\Tasneem_Koushar.jpeg" alt="" class="user">
+						<h3>Tasneem Koushar</h3>
+						<h6><span>Developer</span></h6>
+					</div>
+				</div>
+					<div class="col-md-4 text-center">
+						<div class="profile">
+							<img src="\images\Afsana_Yasmin.jpeg" alt="" class="user">
+							<h3>Afsana Yasmin</h3>
+							<h6><span>Developer</span></h6>
+						</div>
+					</div>
+						<div class="col-md-4 text-center">
+							<div class="profile">
+								<img src="\images\Ketan_poddar.jpeg" alt="" class="user">
+								<h3>Ketan Poddar</h3>
+								<h6><span>Developer</span></h6>
+							</div>
+						</div>
+					<div class="col-md-4 text-center">
+						<div class="profile">
+							<img src="\images\Rekhav_Das.jpeg" alt="" class="user">
+							<h3>Rekhav Das</h3>
+							<h6><span>Developer</span></h6>
+						</div>
+					</div>
+			</div>
+		</section>
+	</div>
+	
+
+	<!-- Footer -->
+	<footer class="page-footer font-small unique-color-dark"
+		style="background-color:hsl(340, 4%, 67%); color:white; font-family: 'PT Sans Narrow', sans-serif;">
+
+		<div style="background-color: #726c6f;">
+			<div class="container">
+
+				<!-- Grid row-->
+				<div class="row py-4 mt-4 d-flex align-items-center">
+
+					<!-- Grid column -->
+					<div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+						<h6 class="mb-0">Connect with us on social networks!</h6>
+					</div>
+					<!-- Grid column -->
+
+					<!-- Grid column -->
+					<div class="col-md-6 col-lg-7 text-center text-md-right">
+
+						<!-- Facebook -->
+						<a class="fb-ic" href="https://www.facebook.com/groups/rishirajhazarika/" target="blank" style="text-decoration:none">
+							<i class="fab fa-facebook-f white-text mr-4"> </i>
+						</a>
+						<!-- Twitter 
+						<a class="tw-ic">
+							<i class="fab fa-twitter white-text mr-4"> </i>
+						</a>-->
+						<!-- Google +
+						<a class="gplus-ic">
+							<i class="fab fa-google-plus-g white-text mr-4"> </i>
+						</a>-->
+						<!--Instagram-->
+						<a class="ins-ic" href="https://www.instagram.com/gyansagar.npo.nits/" target="blank" style="text-decoration: none;">
+							<i class="fab fa-instagram white-text"> </i>
+						</a>
+
+					</div>
+					<!-- Grid column -->
+
+				</div>
+				<!-- Grid row-->
+
+			</div>
+		</div>
+
+		<!-- Footer Links -->
+		<div class="container text-center text-md-left mt-5">
+
+			<!-- Grid row -->
+			<div class="row">
+
+				<!-- Grid column -->
+				<div class="col-md-5 col-lg-5 col-xl-5">
+
+					<!-- Content -->
+					<h6 class="text-uppercase font-weight-bold">Gyansagar</h6>
+					<hr class="d-inline-block" style="width: 100px;">
+					<p>We believe in creating a better world</p>
+
+				</div>
+				<!-- Grid column -->
+
+				<!-- Grid column -->
+				<div class="col-md-3 col-lg-3">
+
+					<!-- Links -->
+					<h6 class="text-uppercase font-weight-bold">Useful links</h6>
+					<hr class="d-inline-block" style="width: 100px;">
+					<p class='mt-4'>
+						<a href="../ReachUs/reachUs.html" style="color:aliceblue; text-decoration:none;">Feedback</a>
+					</p>
+					<p class='mt-4'>
+						<a href="../Activity/activity.html"
+							style="color:aliceblue; text-decoration:none;">Activities</a>
+					</p>
+					<p class='mt-4'>
+						<a href="../Gallery/gallery.html" style="color:aliceblue; text-decoration:none;">Gallery</a>
+					</p>
+				</div>
+				<!-- Grid column -->
+
+				<!-- Grid column -->
+				<div class="col-lg-4 col-xl-4">
+
+					<!-- Links -->
+					<h6 class="text-uppercase font-weight-bold">Contact</h6>
+					<hr class="d-inline-block" style="width: 100px;">
+					<p>
+						<i class="fas fa-home mt-4 mb-0"></i> Gyansagar Room, NIT Silchar, 788010</p>
+					<p>
+						<i class="fas fa-envelope mt-4  mb-0"></i> gyansagar.ngo.nits@gmail.com</p>
+				</div>
+				<!-- Grid column -->
+
+			</div>
+			<!-- Grid row -->
+
+		</div>
+		<!-- Footer Links -->
+
+	</footer>
+	<!-- Footer -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<script src="script/jquery-3.3.1.min.js"></script>
+	<script src="script/owl.carousel.min.js"></script>
+	<script src="script/jquery.js"></script>
+	<script src="script/client.js"></script>
+</body>
+
+</html>

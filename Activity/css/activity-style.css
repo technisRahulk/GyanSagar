@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: rgb(190, 190, 190);
+}
+
+.navbar {
+    height: 75px;
+}
+
+.nav-item {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-left: 1.2rem;
+}
+.span-gyan {
+        color: #1ebba3;
+}
+.span-gyan,
+.span-sagar {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 1000px) {
+    .nav-item {
+        background-color: rgb(41, 40, 40);
+        padding-left: 1rem;
+        border-radius: 4px;
+    }
+}
+
+.carousel-section {
+    max-height: 85vh;
+    height: 85vh;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.carousel-item {
+    width: 98vw;
+    height: 85vh;
+}
+
+.carousel-item img {
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-caption h2 {
+    font-size: 4rem;
+    position: absolute;
+    top: -700%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0 .5rem .5rem #000;
+}
+
+@media only screen and (max-width: 700px) {
+    .carousel-item {
+        width: 98vw;
+        height: 50vh;
+    }
+
+    .carousel-section {
+        max-height: 50vh;
+        height: 50vh;
+    }
+    .nav-item {
+        background-color: rgb(41, 40, 40);
+        padding-left: 1rem;
+        border-radius: 4px;
+    }
+}
+
+.activities-section {
+    position: relative;
+    max-width: 100vw;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.activity-div {
+    box-shadow: 0 .5rem 1rem #000;
+    background: rgb(221, 221, 221);
+}
+
+.activity-left,
+.activity-right {
+    max-width: 80%;
+}
+
+.activity-left {
+    width: 80%;
+    margin-right: 15%;
+    margin-left: 5%;
+}
+
+.activity-right {
+    width: 80%;
+    margin-left: 15%;
+    margin-right: 5%;
+}
+
+@media only screen and ( max-width: 800px ) {
+.activity-left,
+.activity-right {
+    max-width: 90%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+}
+
+.event-heading-c {
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.event-heading {
+    text-align: center;
+    width: 100%;
+    padding: .5rem .8rem;
+    font-size: 2.6rem;
+    color: white;
+    transform: translateX(-.8rem);
+    box-sizing: content-box;
+    background-color: rgb(59, 58, 70);
+}
+.colored-heading {
+        color: #1ebba3;
+}
+
+.para-container {
+    padding: 5% 5%;
+    text-align: center;
+}
+
+.para-text {
+    font-size: 1.2rem;
+    color:rgb(43, 42, 42);
+}
+
+@media only screen and ( max-width: 800px ) {
+    .para-text {
+        font-size: .9rem;
+    }
+    .event-heading {
+        font-size: 1.3rem;
+    }
+}
+
+.para-img-container {
+    padding: 5% 5%;
+}
+
+.para-img {
+    width: 90%;
+    height: 100%;
+    border-radius: 60%;
+}
+
+
+
