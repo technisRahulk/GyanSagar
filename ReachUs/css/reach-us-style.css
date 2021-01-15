@@ -89,6 +89,7 @@
   /*max-width: 25%; */
 }
 .profile{
+  margin-top: 50px;
   margin-left: 80px;
   margin-right: 10px;
   display: grid;
@@ -98,6 +99,9 @@
   padding: 70px 20px 20px;
   background: #b3b3b38c;
   box-shadow: 2px 5px 0px  -2px #7070708c;
+}
+.dev-modal{
+  margin-bottom: 60px;
 }
 .profile img{
   width:300%;

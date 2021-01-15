@@ -11,7 +11,6 @@ body{
 .daughter{
   align-items: center;
 }
-
 .about-parent{
   align-items: center;
 }
@@ -113,6 +112,7 @@ hr{
 
 .about-us-text {
   font-family: 'KoHo', serif;
+  margin-top: -3em;
   padding: 40px 20px 20px 20px; */
   font-size: 17px;
   text-align: center;
