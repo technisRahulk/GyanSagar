@@ -22,6 +22,7 @@
 }
 .demo{
  margin:4rem 0 4rem 0;
+ overflow-x: hidden;
   width: 100%;
   height: 90%;
   z-index: 1;
@@ -110,10 +111,11 @@
   width: 200px !important ;
   height: 190px !important ;
   border-radius: 50%;
+  margin-left: 0em;
   /* margin: -50px 0 0 0; */
 }
-h3{
-  font-size: 30px;
+h2{
+  font-size: 20px;
   text-shadow: 2px 1px #3b3b3b;
   text-decoration: none;
   font-weight: 700;
@@ -321,6 +323,9 @@ h6 span{
 
   .details h3, .details p, .brand{
     text-align: left;
+  }
+  .user{
+    margin-left: 2em;
   }
 } 
 /*
