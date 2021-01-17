@@ -21,7 +21,8 @@
   text-align: center;
 }
 .demo {
-  margin: 4rem 0 4rem 0;
+  margin: 1rem 0;
+  padding: 1rem 0;
   overflow-x: hidden;
   width: 100%;
   height: 90%;
@@ -80,21 +81,22 @@
   font-family: "Montserrat", sans-serif;
   text-align: center;
   color: #0a0a0aea;
-  padding: 20px;
   text-transform: uppercase;
   background: #2383e4;
-  padding: 20px;
+  padding: 25px;
   margin-top: 30px;
   margin-left: 250px;
   margin-right: 250px;
   border-radius: 40px 10px;
 }
 /* devloper profile*/
-.contain .row {
+
+.devloper .row {
   margin-top: 30px;
   margin-bottom: 100px;
   display: grid;
 }
+
 .col-md-4 {
   margin: 40px auto;
   margin-top: 70px;
@@ -102,6 +104,7 @@
   /*max-width: 25%; */
 }
 .profile {
+  position: relative;
   margin-top: 50px;
   margin-left: 80px;
   margin-right: 10px;
@@ -112,25 +115,28 @@
   padding: 70px 20px 20px;
   background: #b3b3b38c;
   box-shadow: 2px 5px 0px -2px #7070708c;
+  text-align: center;
 }
 .dev-modal {
   margin-bottom: 60px;
 }
-.profile img {
-  width: 300%;
-  height: auto;
-  top: -70px;
+
+.profile-img {
+  width: 90%;
+  left: 5%;
+  height: 250px !important ;
+  top: -120px;
   position: absolute;
-  left: calc(-0px + 90px);
-  border: 10px solid rgba(255, 254, 254, 0.884);
+  text-align: center;
 }
-.user {
-  width: 200px !important ;
-  height: 190px !important ;
+
+.profile-img img {
+  width: 100%;
+  height: 100%;
   border-radius: 50%;
-  margin-left: 0em;
-  /* margin: -50px 0 0 0; */
+  border: 10px solid rgba(255, 255, 255, 0.885);
 }
+
 h2 {
   font-size: 20px;
   text-shadow: 2px 1px #3b3b3b;
@@ -197,11 +203,6 @@ h6 span {
   color: #adf7eaaf;
 }
 /*change*/
-@media only screen and (max-width: 479px) {
-  .text-pera h4 {
-    width: 90%;
-  }
-}
 
 .text-pera h4 {
   font-family: "Montserrat", sans-serif;
@@ -218,6 +219,9 @@ h6 span {
   /*margin-left: 100px;*/
   /*margin-right: 550px;*/
   border-radius: 40px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .owl-theme {
   color: #1ebba3;
@@ -268,6 +272,7 @@ h6 span {
   text-transform: capitalize;
   margin: 0 0 5px 0;
   font-family: "Montserrat", sans-serif;
+  text-align: center;
 }
 .testimonial .post {
   display: block;
@@ -337,6 +342,16 @@ h6 span {
   outline: 0;
   transition: background-color 2s ease-out;
 }
+
+.heading-bug {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+.contain {
+  padding: 3rem 0;
+}
+
 @media (min-width: 700px) {
   .wrapper2 {
     display: grid;
@@ -362,6 +377,26 @@ h6 span {
     padding: 5px;
     margin-top: 30px;
   }
+
+  #devloper h2 {
+    padding: 18px;
+  }
+
+  .testimonial .title {
+    font-size: 1rem;
+  }
+
+  .testimonial .title-big {
+    font-size: 0.9rem;
+  }
+
+  .testimonial .post {
+    font-size: 0.9rem;
+  }
+}
+.found-bug-text {
+  width: 80%;
+  margin: 0 auto !important;
 }
 /*
 .navbar{
