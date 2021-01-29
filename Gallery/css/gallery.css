@@ -6,41 +6,44 @@
     box-sizing: inherit;
 }
 html {
-    font-size: 62.5%;
+    font-size: 60%;
 }
+
 body {
     box-sizing: border-box;
     --line-offset: calc((10vh + 8px) / 2);
 }
 
-        .navbar {
-            height: 75px;
-        }
+.navbar {
+    height: 75px;
+    padding-left: 37px;
+}
 
-        .nav-item {
-            font-size: 2rem;
-            font-weight: 600;
-            margin-left: 2rem;
-        }
+.nav-item {
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin-left: 2rem;
+}
 
-        .span-gyan {
-            color: #1ebba3;
-        }
+.span-gyan {
+    color: #1ebba3;
+}
 
-        .span-gyan,
-        .span-sagar {
-            font-size: 2.8rem;
-            font-weight: 600;
-        }
+.span-gyan,
+.span-sagar {
+    font-size: 2.8rem;
+    font-weight: 600;
+    padding-left: 5px;
+}
 
-        @media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1000px) {
 
-            .nav-item {
-                background-color: rgb(41, 40, 40);
-                padding-left: 1.5rem;
-                border-radius: 4px;
-            }
-        }
+    .nav-item {
+        background-color: rgb(41, 40, 40);
+        padding-left: 1.5rem;
+        border-radius: 4px;
+    }
+}
 
 .container {
     margin: 2rem 0 3rem 0;
@@ -279,6 +282,18 @@ body {
     top: 100%;
     transform: rotate(0) scale(2.5);
     border-radius: 5px;
+}
+.health-camp li.hcamp__item1:hover{
+    left:5%;
+    transform: rotate(0) scale(1.6);
+    border-radius: 3px;
+    z-index: 9999;
+}
+.health-camp li.hcamp__item5:hover{
+    left:97%;
+    transform: rotate(0) scale(1.6);
+    border-radius: 3px;
+    z-index: 9999;
 }
 
 .health-camp li .hcamp__bg {
