@@ -316,11 +316,12 @@ hr{
 .content a{
  color: #fcff58;
 }
-.content a:hover{
-  color: white;
+.content a:hover, .content a:visited:hover{
+  color: #fff;
 }
+
 .content a:visited{
-  color: white;
+  color: #fcff58;
 }
 .boxed h3 {
 	margin: 0;
